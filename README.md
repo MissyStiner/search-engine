@@ -1,7 +1,14 @@
 # Book Search Engine
 
 ## Description
-This is a fully functioning Google Books API search engine built with a RESTful API refactored to be a GraphQL API built with Apollo Server. The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API. It's set up to allow users to save book searches to the back end.
+This is a fully functioning Google Books API search engine built with a RESTful API refactored to be a GraphQL API built
+with Apollo Server. The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API. It's set up to allow users to save book searches to the back end.
+
+## GitHub URL
+https://github.com/MissyStiner/search-engine
+
+## Application URL
+https://sirchbuk.herokuapp.com/
 
 ## Steps Taken
 - Set up an Apollo Server to use GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API.
@@ -51,13 +58,13 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 
 ## Mock-Up
 A user can type a search term (in this case, "star wars") in a search box and the results appear:
-![assets\21-mern-homework-demo-01.gif]
+![https://github.com/MissyStiner/search-engine/blob/main/assets/21-mern-homework-demo-01.gif]
 
 The user can save books by clicking "Save This Book!" under each search result, as shown in the following animation:
-![assets\21-mern-homework-demo-02.gif]
+![https://github.com/MissyStiner/search-engine/blob/main/assets/21-mern-homework-demo-02.gif]
 
 A user can view their saved books on a separate page, as shown in the following animation:
-![assets\21-mern-homework-demo-03.gif]
+![https://github.com/MissyStiner/search-engine/blob/main/assets/21-mern-homework-demo-03.gif]
 
 ## Front End Specifications
 You'll need to create the following front-end files:
