@@ -1,7 +1,7 @@
 {
   "name": "googlebooks-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Description This is a fully functioning Google Books API search engine built with a RESTful API refactored to be a GraphQL API built with Apollo Server. The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API. It's set up to allow users to save book searches to the back end.",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -14,5 +14,17 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
-  }
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.15.0",
+    "react-router-dom": "^5.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MissyStiner/search-engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MissyStiner/search-engine/issues"
+  },
+  "homepage": "https://github.com/MissyStiner/search-engine"
 }
